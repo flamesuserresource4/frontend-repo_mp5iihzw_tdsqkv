@@ -3,7 +3,6 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Performance from './components/Performance';
 import Holdings from './components/Holdings';
-import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,7 +13,6 @@ function App() {
         <Performance />
         <Holdings />
       </main>
-      <Footer />
     </div>
   );
 }
